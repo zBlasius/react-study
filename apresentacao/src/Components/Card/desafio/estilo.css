@@ -1,0 +1,42 @@
+.Main{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Checkbox{
+    margin:10px auto;
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #939393;
+}
+
+.Checkbox label {
+    margin-bottom: 20px;
+}
+
+.Empresas{
+    width: 40%;
+    margin: auto;
+}
+
+.buttonSub {
+    margin:auto;
+    width:50%;
+    height:30px;
+    background-color: #536B78 ;
+    font-size:15px;
+    color:white;
+    border:none;
+    border-radius:5px;
+    box-shadow:1px 1px 10px 1px #cc444bc1;
+    outline:0; /* Serve para remover borda azul button */
+}
+
+.buttonSub:active {
+    background-color: #cc444bc1;
+}   

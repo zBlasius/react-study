@@ -1,0 +1,40 @@
+.Menu{
+    display: flex;
+    flex-basis: 250px;
+    background-color: #ADD9F4;
+}
+
+.Menu nav {
+    flex:1;  /* isso faz o li ocupar a linha toda */
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Menu li {
+    display:flex;
+    transition: .2s;
+}
+
+.Menu li:hover{
+    background-color: #0000003c;
+}
+
+.Menu li a {
+    padding:10px;
+    margin: 0px;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: 1px 1px 20px #0000007b;
+    font-size:1.5rem;
+    flex:1;
+}
+
+/* .Content {
+    background-color: red ;    // Se eu deixasse assim, iria alterar outro componente.
+}mas por que? Se não chamei o componente Content?  pois o componente menu està no mesmo app que content, é preciso tomar cuidado para não 
+dar estilo em tags gerais, como div e h1 por exemplo, sempre especificar
+
+*/   

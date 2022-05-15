@@ -1,0 +1,80 @@
+.Cabecalho{
+    width: 100vh;
+
+}
+
+.Cabecalho header {
+    position: relative;
+    border-left:8px solid #197ab2;
+    margin:20px 0px 0px 20px;
+    background-color: #20a6f330;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.Cabecalho h1 {
+    margin-bottom: 0px;
+    color:#3b2a2a;
+    text-shadow: 2px 5px 35px #20A4F3;
+}
+
+.Cabecalho h5 {
+    margin-top: 10px;
+    color:#606060;
+}
+
+.Corpo {
+    font-size: 20px;
+    text-align: center;
+    margin:30px 0px 0px 0px;
+    padding-bottom: 20px;
+}
+
+.Exercise{
+    text-align: center;
+    margin:auto;
+    width: 100%;
+    background-color: #cecece;
+}
+
+.groupButton{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap:18px;
+}
+
+.btn{
+    margin-top: 15px;
+    width: 157px;
+    height: 30px;
+    background-color:aqua ;
+    border: 1px solid rgba(172, 172, 172, 0.603);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text{
+    padding: 5px;
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px 1px #cecece;
+}
+
+.Instructions{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 14px;
+    right: 100px;
+    bottom: 200px;
+    text-align: left;
+}
+
+h4 {
+    text-align: center;
+}
+

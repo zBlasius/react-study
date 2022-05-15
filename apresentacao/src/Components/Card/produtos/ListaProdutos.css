@@ -1,0 +1,25 @@
+.produtos{
+    text-align: center;
+    width: 90%;
+    margin: 30px auto;
+    border-collapse:collapse
+}
+
+.produtos td {
+    width: 100px;
+    border:.3px solid rgba(0, 0, 0, 0.274);
+}
+
+.produtos th {
+    background-color: #cecece96;
+    border:.3px solid rgba(0, 0, 0, 0.274);
+}
+
+.Impar {
+    background-color: rgb(255, 255, 255);
+}
+
+.Indis{
+    background-color: rgba(255, 0, 0, 0.476);
+    color:black;
+}

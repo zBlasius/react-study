@@ -1,0 +1,32 @@
+.Menu {
+    background-color: #20A4F3;
+    flex-basis: 250px; /* Para preencher toda a linha */
+    display: flex;
+}
+
+.Menu nav {
+    flex:1;
+}
+
+.Menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.Menu li {
+    display: flex; /* serve para o li cobrir a linha toda */
+}
+
+.Menu li:active{
+    background-color: #cececeb8;
+}
+
+.Menu li a {
+    padding:10px;
+    margin:0px;
+    text-decoration: none;
+    color:#fff;
+    text-shadow: 1px 1px 20px #0000007b;
+    font-size:1.5rem;
+    flex:1;
+}

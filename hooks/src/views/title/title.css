@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+.titulo {
+    font-family: 'Crimson Text', serif;
+    width: 100%;
+    margin:0px 0px 10px 20px;
+    border-bottom: 2px solid #cecece;
+    color: #432525f7;
+    font-size: 30px;
+}
+
+.titulo h5 {
+    margin-top: -40px;
+}
