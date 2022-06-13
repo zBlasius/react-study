@@ -1,0 +1,40 @@
+{
+    "Word": [
+        {
+            "id": 1,
+            "difficult": "hard",
+            "word": "rinoplastia"
+        },
+        {
+            "id": 2,
+            "difficult": "easy",
+            "word": "banana"
+        },
+        {
+            "id": 3,
+            "difficult": "medium",
+            "word": "crocodilo"
+        },
+        {
+            "id": 4,
+            "difficult": "hard",
+            "word": "exuberante"
+        }
+
+    ],
+
+    "User": {
+        "id": 1234,
+        "nome": "Gustavo",
+        "login": "gustavo@uol.com",
+        "password": "pelexuxa"
+    },
+
+    "GameProgress": {
+        "id": 9999,
+        "user_id": 1234,
+        "word_id": 1,
+        "playerLife": 3,
+        "difficult": "hard"
+    }
+}

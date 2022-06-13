@@ -19,6 +19,7 @@ import {
   import UseRef2 from '../views/useRef/UseRef2'
   import UseState from '../views/useState/UseState'
   import UseMyHook from '../views/useMyHook/UseMyHook'
+  import Hangman from '../views/hangman/hangman';
  
   const Content = props => (
       <main className="Content"> 
@@ -65,10 +66,14 @@ import {
 
               <Route path="/UseReducer">
                   <UseReducer/>
-              </Route>
+              </Route> 
 
               <Route path="/UseMyHook">
                   <UseMyHook/>
+              </Route>
+
+              <Route path="/Hangman">
+                  <Hangman/>
               </Route>
           </Switch>
       </main>

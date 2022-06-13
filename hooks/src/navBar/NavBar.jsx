@@ -41,6 +41,9 @@ const NavBar = props => (
                 <li>
                     <Link to="/useMyHook"> useMyHook() </Link>
                 </li>
+                <li>
+                    <Link to="/Hangman"> Hangman() </Link>
+                </li>
             </ul>
         </nav>
     </aside>
